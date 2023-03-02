@@ -1,0 +1,1 @@
+Para o TPC1 utilizei ferramentas fornecidas na aula e pesquisei também por ferramentas que precisei e não conhecia. O ficheiro .py está dividido em duas partes, correspondendo cada uma a cada conjunto de exercícios proposto.
