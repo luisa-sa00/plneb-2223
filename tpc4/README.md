@@ -7,7 +7,7 @@ Objetivos deste trabalho:
 Tarefas realizadas até ao momento:
 
 - 1 - save the data: fazer load dos dados do ficheiro json
-- 2 - process txt: processar o ficheiro txt referente ao Livro de Doenças, nomeadamente substituindo os '\f' por <hr> e os '\n' por <br> para posterior escrita num ficheiro html
+- 2 - process txt: processar o ficheiro txt referente ao Livro de Doenças, nomeadamente substituindo os '\f' por < hr > e os '\n' por < br > para posterior escrita num ficheiro html
 - 3 - annotate txt: verificação de termos comuns no dicionário e no livro, fazendo uma anotação nos mesmos, em que passando o cursor no termo aparece a sua definição
 - 4 - generate html: criação do ficheiro html com essa informação, de modo a ser visualizável na web
 
