@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TPC6</title>
+	<link href="style.css" rel="stylesheet">
+	<script>
+		function toggleContainer() {
+			var container1 = document.getElementById("container1");
+			var container2 = document.getElementById("container2");
+			if (container1 && container2) {
+				container1.style.display = "none";
+				container2.style.display = "flex";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Thinking like an Engineer:</h1>
+	<div class="container" id="container1" onclick="toggleContainer()">
+		<img src="./img/computer2.png" style="width: 50%">
+	</div>
+	
+	<div class="container" id="container2" style="display:none;">
+		<img src="./img/cavalo.png" alt="Image 1">
+		<span>&#x2B;</span>
+		<img src="./img/elefante.png" alt="Image 2">
+		<span>&#x3D;</span>
+		<img src="./img/cavalo-elefante.png" alt="Image 3">
+	</div>
+
+</body>
+</html>
