@@ -22,3 +22,4 @@ with open("dicionario_translation.json") as file:
     json.dump(new_dic, ensure_ascii=False, indent=4)
 
 # tpc - criar dicionario falado usando ficheiro que está no github em vez de googletranslate
+# deep translator é muito lento
