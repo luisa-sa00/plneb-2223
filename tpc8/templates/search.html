@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+
+{% block body %}
+
+<form action="/terms/search" method="GET">
+  <div class="container p-4 w-50">
+    <h3>Pesquisar Termo/Descrição/Tradução</h3>
+    <label class="form-label">Inserir texto:</label>
+    <input type="text" class="form-control" name="text">
+  </div>
+  <div class="container w-50">
+    <button type="submit" class="btn btn-secondary">Pesquisar</button>
+  </div>
+</form>
+
+<div class="container p-4 w-50">
+  <ul>
+  {% for designation, description in matched %}
+    <li> <b> <a href="/term/{{designation}}" class="list-group-item list-group-item-light btn-outline-secondary">{{designation}} (EN: {{description["en"]}})</a></b> {{description["des"]}} </li>
+  {% endfor %}
+  </ul>
+</div>
+
+{% endblock %}
